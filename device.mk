@@ -19,10 +19,10 @@ PRODUCT_PACKAGES += \
     android.hardware.boot@1.0-service
 
 PRODUCT_PACKAGES += \
-    bootctrl.jr510
+    bootctrl.default
 
 PRODUCT_STATIC_BOOT_CONTROL_HAL := \
-    bootctrl.jr510 \
+    bootctrl.default \
     libgptutils \
     libz \
     libcutils
