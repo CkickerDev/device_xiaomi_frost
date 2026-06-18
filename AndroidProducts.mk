@@ -6,9 +6,13 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_frost.mk
+    $(LOCAL_DIR)/omni_frost.mk \
+    $(LOCAL_DIR)/twrp_frost.mk
 
 COMMON_LUNCH_CHOICES := \
     omni_frost-user \
     omni_frost-userdebug \
-    omni_frost-eng
+    omni_frost-eng \
+    twrp_frost-user \
+    twrp_frost-userdebug \
+    twrp_frost-eng
